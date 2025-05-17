@@ -3,7 +3,7 @@
 
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-module.exports = buildModule("VotingModule", (m) => {
+module.exports = buildModule("VotingModuleV2", (m) => {
   const candidates = ["Hidup Blonde", "Hidup Joe koe we", "Hidup Windah Basudara"];
   const voting = m.contract("Voting", [candidates]);
 
